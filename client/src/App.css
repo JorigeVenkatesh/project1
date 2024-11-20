@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+table{
+  border-collapse: collapse;
+}
+table,th,td{
+  border: 2px solid black;
+}
+thead{background-color: aqua;}
+
+form{
+  display: inline-block;
+  padding: 20px;
+  border: 3px black solid;
+  border-radius: 30px;
+  background-image: linear-gradient(120deg, cyan, yellow, cyan);
+  box-shadow: 10px 10px 10px;
+}
+form label{
+  display: inline-block;
+  width: 200px;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin: 20px;
+  background-image: linear-gradient(120deg, cyan, yellow, cyan);
+  box-shadow: 2px 2px 2px black;
+}
+
+form input{
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color:#ccffff;
+  box-shadow: 5px 5px 5px black;
+  text-align: center;
+}
+
+form div{
+  margin: 30px;
+}
+.profilePic{
+  width: 150px;
+  height: 150px;
+  border: 2px black solid;
+}
+.StoreObjprofilePic {
+  width: 150px;
+  height: 150px;
+  border: 2px black solid;
+  border-radius: 50%;
+
+}
+button{
+  background-image: linear-gradient(120deg, cyan, yellow, cyan);
+  border: 2px black solid;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+
+.Div{
+  border: 2px solid black;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+body{
+background-image: linear-gradient(120deg, cyan, yellow, cyan);
+}
